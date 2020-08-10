@@ -8,3 +8,7 @@ body {
   @apply p-8;
   @apply text-gray-600;
 }
+
+a:hover {
+  cursor: pointer;
+}
