@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const Nav = () => (
-  <nav className="flex flex-row gap-4 font-display font-light">
+  <nav className="flex flex-row gap-4 font-display font-light text-sm sm:text-lg">
     <Link href="/">
       <a>HOME</a>
     </Link>

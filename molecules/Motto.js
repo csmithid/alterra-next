@@ -1,7 +1,11 @@
 const Motto = () => (
-  <h2 className="font-light font-display my-12 text-gray-400">
-    GENTES STRUIT - NUBES CERNIT - IGNES VINCIT
-  </h2>
+  <div className="font-light font-display my-12 text-gray-400 text-lg flex flex-col sm:flex-row items-center gap-2">
+    <h2>GENTES STRUIT</h2>
+    <h2 className="hidden sm:inline-block">•</h2>
+    <h2>NUBES CERNIT</h2>
+    <h2 className="hidden sm:inline-block">•</h2>
+    <h2>IGNES VINCIT</h2>
+  </div>
 );
 
 export default Motto;
