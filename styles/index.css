@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap");
+
+body {
+  @apply p-8;
+  @apply text-gray-600;
+}
