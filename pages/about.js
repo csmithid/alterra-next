@@ -6,10 +6,10 @@ export default () => (
         className="rounded-full hidden sm:block"
       ></img>
       <div className="flex-col">
-        <h2 className="font-bold">Jeff Smith</h2>
-        <h2>636 Arrowhead Drive</h2>
-        <h2>Earlysville, VA 22936</h2>
-        <h2>434 981 1652</h2>
+        <p className="font-bold mb-2">Jeff Smith</p>
+        <p>636 Arrowhead Drive</p>
+        <p className="mb-2">Earlysville, VA 22936</p>
+        <a href="tel:434-981-9136">+1 434 981 9136</a>
       </div>
     </div>
     <div className="max-w-lg">
