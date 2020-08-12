@@ -19,7 +19,7 @@ const HoverImg = ({ src, href }) => {
 };
 
 export default () => (
-  <div className="max-w-xl grid grid-cols-2 sm:grid-cols-3 gap-2">
+  <div className="max-w-xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
     <HoverImg src="img/12.jpg"></HoverImg>
     <HoverImg src="img/17.jpg"></HoverImg>
     <HoverImg src="img/CM3.jpg"></HoverImg>
