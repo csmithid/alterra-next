@@ -1,7 +1,10 @@
 export default () => (
   <div className="text-gray-700 text-sm flex flex-col items-center">
-    <div className="flex flex-col sm:flex-row items-center justify-center gap-8 p-8 mb-12 rounded-lg bg-gray-200 max-w-sm">
-      <img src="img/headshot.jpeg" className="w-32 h-32 rounded-full"></img>
+    <div className="flex flex-col sm:flex-row items-center justify-center p-8 mb-12 rounded-lg bg-gray-200 max-w-sm">
+      <img
+        src="img/headshot.jpeg"
+        className="w-32 h-32 rounded-full mb-8 sm:mb-0 mr-0 sm:mr-8"
+      ></img>
       <div className="flex-col">
         <p className="font-bold mb-2">Jeff Smith</p>
         <p>636 Arrowhead Drive</p>
