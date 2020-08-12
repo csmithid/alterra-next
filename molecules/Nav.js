@@ -23,6 +23,7 @@ const NavButton = ({ href, children }) => {
         </m.a>
         <m.div
           animate={{ width: hovered ? "100%" : "0%" }}
+          initial={{ width: "0%" }}
           transition={{ type: "tween" }}
           style={{ height: "1px" }}
           className="bg-gray-600"
