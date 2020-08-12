@@ -1,16 +1,33 @@
 import Link from "next/link";
-import { useSpring, animated } from "react-spring";
-import { useRouter, Router } from "next/router";
+import { useRouter } from "next/router";
+import { motion as m } from "framer-motion";
+import { useBoolean } from "react-use";
 
 const NavButton = ({ href, children }) => {
   const router = useRouter();
-  const props = useSpring({ opacity: router.pathname === href ? 1 : 0.5 });
+  const [hovered, setHovered] = useBoolean(false);
 
   return (
-    <Link href={href}>
-      <animated.a href="" style={props}>
-        {children}
-      </animated.a>
+    <Link href={href} className="flex flex-col items-center">
+      <div
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+        className="flex flex-col items-center"
+      >
+        <m.a
+          animate={{ opacity: router.pathname === href ? 1 : 0.5 }}
+          initial={{ opacity: 0.5 }}
+          href=""
+        >
+          {children}
+        </m.a>
+        <m.div
+          animate={{ width: hovered ? "100%" : "0%" }}
+          transition={{ type: "tween" }}
+          style={{ height: "1px" }}
+          className="bg-gray-600"
+        ></m.div>
+      </div>
     </Link>
   );
 };

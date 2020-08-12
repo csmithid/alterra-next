@@ -6,6 +6,7 @@
 
 body {
   @apply p-8;
+  @apply pb-0;
   @apply text-gray-600;
 }
 

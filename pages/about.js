@@ -2,8 +2,8 @@ export default () => (
   <div className="text-gray-700 text-sm flex flex-col items-center">
     <div className="flex flex-row items-center justify-center gap-8 p-8 mb-12 rounded-lg bg-gray-200 max-w-sm">
       <img
-        src="https://via.placeholder.com/100"
-        className="rounded-full hidden sm:block"
+        src="img/headshot.jpeg"
+        className="w-32 h-32 rounded-full hidden sm:block"
       ></img>
       <div className="flex-col">
         <p className="font-bold mb-2">Jeff Smith</p>
