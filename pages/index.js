@@ -1,22 +1,4 @@
-import Link from "next/link";
-import { motion } from "framer-motion";
-
-const HoverImg = ({ src, href }) => {
-  return (
-    <div className="w-md h-md overflow-hidden">
-      <Link href={href ? href : "/projects"}>
-        <a>
-          <motion.img
-            src={src}
-            whileHover={{ opacity: 0.8, scale: 1.15 }}
-            transition={{ type: "tween" }}
-            className="h-full w-full object-cover"
-          ></motion.img>
-        </a>
-      </Link>
-    </div>
-  );
-};
+import HoverImg from "../molecules/HoverImg";
 
 export default () => (
   <div className="max-w-xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
