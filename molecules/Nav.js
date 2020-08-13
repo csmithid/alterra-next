@@ -34,11 +34,11 @@ const NavButton = ({ href, children }) => {
 };
 
 const Nav = () => (
-  <nav className="flex flex-row font-display font-light text-gray-800 text-md sm:text-lg">
+  <nav className="grid grid-flow-col gap-4 font-display font-light text-gray-800 text-md sm:text-lg">
     <NavButton href="/">HOME</NavButton>
-    <h2 className="mx-4 text-gray-500">•</h2>
+    <h2 className="text-gray-500">•</h2>
     <NavButton href="/projects">PROJECTS</NavButton>
-    <h2 className="mx-4 text-gray-500">•</h2>
+    <h2 className="text-gray-500">•</h2>
     <NavButton href="/about">ABOUT</NavButton>
   </nav>
 );

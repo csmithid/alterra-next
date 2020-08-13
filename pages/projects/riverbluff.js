@@ -1,6 +1,3 @@
-import HoverImg from "../../molecules/HoverImg";
-import Card from "../../molecules/Card";
-
 export default () => (
   <div className="max-w-xl grid grid-cols-1 gap-4">
     <div className="bg-gray-200 p-8 text-gray-700">
