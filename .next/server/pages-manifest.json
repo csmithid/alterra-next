@@ -2,7 +2,16 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/about": "pages/about.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/projects/1": "pages/projects/1.js",
+  "/projects/2": "pages/projects/2.js",
+  "/projects/4": "pages/projects/4.js",
   "/": "pages/index.js",
-  "/projects": "pages/projects.js"
+  "/projects/3": "pages/projects/3.js",
+  "/projects/5": "pages/projects/5.js",
+  "/projects/6": "pages/projects/6.js",
+  "/projects/7": "pages/projects/7.js",
+  "/projects/9": "pages/projects/9.js",
+  "/contact": "pages/contact.js",
+  "/about": "pages/about.js"
 }

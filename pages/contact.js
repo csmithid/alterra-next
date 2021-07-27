@@ -7,8 +7,8 @@ export default () => (
       ></img>
       <div className="flex-col">
         <p className="mb-2 font-bold">Jeff Smith</p>
-        <p>636 Arrowhead Drive</p>
-        <p className="mb-2">Earlysville, VA 22936</p>
+        <a href="mailto:alterracm@gmail.com">alterracm@gmail.com</a>
+        <br />
         <a href="tel:434-981-9136">+1 434 981 9136</a>
       </div>
     </div>

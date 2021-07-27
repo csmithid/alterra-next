@@ -1,6 +1,6 @@
 export default () => (
   <div className="text-gray-700 text-md flex flex-col items-center">
-    <div className="max-w-lg">
+    <div className="max-w-xl">
       <p className="mb-4">
         Alterra is a full-service Agency Construction Management firm which
         specializes in complex, multi-million-dollar residences that require

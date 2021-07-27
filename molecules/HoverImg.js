@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const HoverImg = ({ src, href }) => {
   return (
-    <div className="w-md h-md overflow-hidden">
+    <div className="w-md h-48 overflow-hidden">
       <Link href={href ? href : "/projects"}>
         <a>
           <motion.img
